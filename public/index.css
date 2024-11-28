@@ -1,0 +1,109 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #e5a8e3;
+    color: #333;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+
+  }
+  
+  /* Header Section */
+  .header {
+    text-align: center;
+    background-color: #fad6eb;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ba2d9e;
+  }
+  
+  /* Business Information */
+  .business-info {
+    background-color: #ffd6f5;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .business-info p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  /* Navigation Grid */
+  .grid {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .grid-item {
+    background-color: #fff;
+    width: 30%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ba2d9e;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    color: #ba2d9e;
+  }
+  
+  /* Content Section */
+  .content-section {
+    background-color: #fad6eb;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .content-section h2 {
+    margin-bottom: 20px;
+    color: #ba2d9e;
+    text-align: center;
+  }
+  
+  .content-card {
+    background-color: #4e134b;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    font-size:15px;
+    color: #4e134b;
+    margin-top: 20px;
+  }
+  
+  .footer a {
+    color: #4e134b;
+    text-decoration: none;
+    font-weight: bold;
+    
+  }
+  
